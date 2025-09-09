@@ -6,7 +6,8 @@ A real-time chat application built with the MERN stack (MongoDB, Express, React,
 
 Live demo link: https://chat-app-omega-bice.vercel.app/
 
-Features:-
+#Features:-
+
 1)Real-time messaging with Socket.io (one-to-one and rooms)
 
 2)User authentication (JWT)
@@ -17,7 +18,8 @@ Features:-
 
 5)Responsive React UI
 
-Tech Stack:-
+#Tech Stack:-
+
 1)Frontend: React (Vite or Create React App), React Router
 
 2)Backend: Node.js, Express
@@ -30,26 +32,19 @@ Tech Stack:-
 
 6)Context API for state management
 
-Prerequisites:-
-1)Node.js (v16+ recommended)
-
-2)npm or yarn
-
-3)MongoDB (Atlas or local instance)
-
 Run Locally (development):-
-Start backend (development)
-# from /backend
+#Start backend (development)
+from /backend
 npm run dev
-# or
+ or
 nodemon server.js
 
 This should start Express on http://localhost:5000 (or your configured PORT) and host the Socket.io server.
 
-Start frontend (development)
-# from /frontend
+#Start frontend (development)
+from /frontend
 npm run dev       # if using Vite
-# or
+or
 npm start         # if using CRA
 
 #Screenshots
