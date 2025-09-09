@@ -33,13 +33,14 @@ Live demo link: https://chat-app-omega-bice.vercel.app/
 6)Context API for state management
 
 Run Locally (development):-
+
 #Start backend (development)
 from /backend
 npm run dev
  or
 nodemon server.js
 
-This should start Express on http://localhost:5000 (or your configured PORT) and host the Socket.io server.
+This will start Express on http://localhost:5000  and host the Socket.io server.
 
 #Start frontend (development)
 from /frontend
