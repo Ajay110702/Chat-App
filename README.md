@@ -8,22 +8,33 @@ Live demo link: https://chat-app-omega-bice.vercel.app/
 
 Features:-
 1)Real-time messaging with Socket.io (one-to-one and rooms)
+
 2)User authentication (JWT)
+
 3)Persisted chat messages in MongoDB
+
 4)Online user presence
+
 5)Responsive React UI
 
 Tech Stack:-
 1)Frontend: React (Vite or Create React App), React Router
+
 2)Backend: Node.js, Express
+
 3)Database: MongoDB (Atlas or local)
+
 4)Real-time: Socket.io
+
 5)Auth: JWT (JSON Web Tokens)
+
 6)Context API for state management
 
 Prerequisites:-
 1)Node.js (v16+ recommended)
+
 2)npm or yarn
+
 3)MongoDB (Atlas or local instance)
 
 Run Locally (development):-
