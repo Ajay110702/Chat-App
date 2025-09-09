@@ -6,40 +6,43 @@ A real-time chat application built with the MERN stack (MongoDB, Express, React,
 
 Live demo link: https://chat-app-omega-bice.vercel.app/
 
-Features
+Features:-
+1)Real-time messaging with Socket.io (one-to-one and rooms)
+2)User authentication (JWT)
+3)Persisted chat messages in MongoDB
+4)Online user presence
+5)Responsive React UI
 
-Real-time messaging with Socket.io (one-to-one and rooms)
+Tech Stack:-
+1)Frontend: React (Vite or Create React App), React Router
+2)Backend: Node.js, Express
+3)Database: MongoDB (Atlas or local)
+4)Real-time: Socket.io
+5)Auth: JWT (JSON Web Tokens)
+6)Context API for state management
 
-User authentication (JWT)
+Prerequisites:-
+1)Node.js (v16+ recommended)
+2)npm or yarn
+3)MongoDB (Atlas or local instance)
 
-Persisted chat messages in MongoDB
+Run Locally (development):-
+Start backend (development)
+# from /backend
+npm run dev
+# or
+nodemon server.js
 
-Online user presence
+This should start Express on http://localhost:5000 (or your configured PORT) and host the Socket.io server.
 
-Typing indicators and message timestamps
+Start frontend (development)
+# from /frontend
+npm run dev       # if using Vite
+# or
+npm start         # if using CRA
 
-Responsive React UI
+#Screenshots
+<img width="1826" height="975" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/ff4c2f1c-7521-4c30-a741-2810f4ffff9a" />
 
-Tech Stack
 
-Frontend: React (Vite or Create React App), React Router
 
-Backend: Node.js, Express
-
-Database: MongoDB (Atlas or local)
-
-Real-time: Socket.io
-
-Auth: JWT (JSON Web Tokens)
-
-Optional: Redux / Context API for state management
-
-Prerequisites
-
-Node.js (v16+ recommended)
-
-npm or yarn
-
-MongoDB (Atlas or local instance)
-
-Git
